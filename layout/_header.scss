@@ -1,0 +1,111 @@
+.header {
+    width: 100%;
+    top: 28px;
+    -o-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    background-color: $background-color;
+};
+
+.menu {
+    max-width: 100%;
+    -o-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}; 
+
+.main_menu {
+    -o-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 100%;
+};
+
+@media (max-width: 600px) {
+    .main_menu,
+    .head_link {
+        -o-display: none;
+        -moz-display: none;
+        -ms-display: none;
+        -webkit-display: none;
+        display: none;
+    }
+};
+
+.head_btn {
+    -o-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+};
+
+.header__mobile_btn {
+    -o-display: none;
+    -moz-display: none;
+    -ms-display: none;
+    -webkit-display: none;
+    display: none; 
+    width: 18px;
+    height: 8px;
+    -o-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &:hover {
+        cursor: pointer;
+    }
+};
+
+.header__mobile_btn > div {
+    width: 18px;
+    height: 0px;
+    border: 0.7px solid #72747C;
+    -o-display: none;
+    -moz-display: none;
+    -ms-display: none;
+    -webkit-display: none;
+    display: none;
+};
+
+@media screen and (max-width: 600px) {
+    .header__mobile_btn,
+    .header__mobile_btn > div {
+        -o-display: block;
+        -moz-display: block;
+        -ms-display: block;
+        -webkit-display: block;
+        display: block; 
+        -o-display: flex;
+        -moz-display: flex;
+        -ms-display: flex;
+        -webkit-display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} 

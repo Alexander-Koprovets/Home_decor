@@ -1,0 +1,73 @@
+.nav {
+  border: none;
+  cursor: pointer;
+  -o-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex; 
+  align-items: center; 
+};
+  
+.dropdown {
+  position: relative;
+  -o-display: inline-block;
+  -moz-display: inline-block;
+  -ms-display: inline-block;
+  -webkit-display: inline-block;
+  display: inline-block;
+};
+
+.dropdown-child {
+  -o-display: none;
+  -moz-display:none;
+  -ms-display: none;
+  -webkit-display: none;
+  display: none;
+  min-width: 200px;
+  position: absolute;
+  z-index: 5;
+};
+
+.dropdown-child .dropdown_link {
+  padding: 20px;
+  text-decoration: none;
+  -o-display: block;
+  -moz-display: block;
+  -ms-display: block;
+  -webkit-display: block;
+  display: block;
+};
+
+.dropdown:hover .dropdown-child {
+  -o-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -webkit-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+};
+
+.arrow_up {
+  -o-display: none;
+  -moz-display: none;
+  -ms-display: none;
+  -webkit-display: none;
+  display: none;
+};
+
+.dropdown:hover .arrow_up {
+  -o-display: block;
+  -moz-display: block;
+  -ms-display: block;
+  -webkit-display: block;
+  display: block;
+};
+
+.dropdown:hover .arrow_down {
+  -o-display: none;
+  -moz-display: none;
+  -ms-display: none;
+  -webkit-display: none;
+  display: none; 
+}

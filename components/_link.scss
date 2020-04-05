@@ -1,0 +1,27 @@
+.head_link,
+.footer_link {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: $main-color;
+};
+
+.dropdown_link {
+    font-family: 'Cinzel', serif;
+    font-size: 19px;
+    color: $main-color;
+};
+
+.link_part_1, .link_part_2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+};
+
+.link_part_2 {
+    color: #72747C;
+}
